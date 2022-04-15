@@ -137,7 +137,7 @@ def do_job():
     s='左击方块,是雷游戏结束,否则显示相邻8块地雷数,空相邻无雷\n'+\
     '右击方块标记红旗表示有雷,再右击变？,再右击无标记\n'+\
     '方块显示n,相邻8块标记n块有雷,左键双击等效单击邻近8块无雷块'+\
-    '\n如雷标记有错，游戏结束。                保留所有版权'
+    '\n如雷标记有错，游戏结束。                '
     tkinter.messagebox.showinfo(title="帮助",message=s)
 def setGameLevel(row=0,col=0,mine=0):
     global mines,numOfrow,numOfCol,buttons
